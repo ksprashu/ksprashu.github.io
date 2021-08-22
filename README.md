@@ -1,2 +1,3 @@
-# ksprashu.github.io
-my blog pages
+# Prashanth's Peeves
+
+This repo will host the Github Pages content for my Personal Journal.
