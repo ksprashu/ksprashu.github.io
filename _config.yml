@@ -30,12 +30,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "blog.prashu.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ksprashu 
 github_username: ksprashu
-show_downloads: false
-google_analytics: 283695394
 
 # Build settings
-remote_theme: pages-themes/dinky@v0.2.0
-# theme: dinky
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
