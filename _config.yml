@@ -21,22 +21,23 @@
 title: Prashanth's Peeves
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my daily journal.
-
-  Here I will be penning down a lot of unstructured thoughts and experiments.
-  A lot of this might not make too much sense, but then I might elaborate some
-  things from here into blogs or vlogs.
-
+  This is my Daily Journal
+  where I will be penning down a lot of unstructured thoughts and experiments.
   Watch this space to know what I am generally upto and the things that I am working on.
+  A lot of this might not make too much sense, but then I might elaborate some
+  things from here into blogs or vlogs. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "blog.prashu.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ksprashu 
 github_username: ksprashu
+show_downloads: false
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/dinky@v0.2.0
+# theme: dinky
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
